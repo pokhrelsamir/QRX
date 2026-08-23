@@ -328,17 +328,26 @@ The QRCode.js dependency used by this project is also distributed under the MIT 
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Samir Pokhrel**
+<div align="center">
 
-B.Sc. CSIT Student & Developer
+### Samir Pokhrel
 
-### Connect
+**B.Sc. CSIT Student | Web Developer | Networking Enthusiast**
 
-* GitHub: `https://github.com/pokhrelsamir`
-* Portfolio: *Add your portfolio URL*
-* LinkedIn: *Add your LinkedIn URL*
+Built using **HTML, CSS, and JavaScript**
+
+<br>
+
+<a href="https://github.com/pokhrelsamir">
+  <img src="https://img.shields.io/badge/GitHub-pokhrelsamir-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="https://www.linkedin.com/in/samirpokhrel/">
+  <img src="https://img.shields.io/badge/LinkedIn-Samir%20Pokhrel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+</div>
 
 ---
 
@@ -360,6 +369,6 @@ If you find QRX useful:
 
 **Generate. Scan. Share.**
 
-Built with ❤️ using HTML, CSS & JavaScript.
+Built with using HTML, CSS & JavaScript.
 
 </div>
