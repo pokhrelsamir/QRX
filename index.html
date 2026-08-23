@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="QRX is a lightweight QR code generator for creating downloadable QR codes from text and URLs.">
+
+    <meta name="keywords"
+        content="QRX, QR code generator, QR generator, QR code, URL QR code, text QR code">
+
+    <meta name="author" content="Samir Pokhrel">
+
+    <title>QRX — QR Code Generator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-icon">▦</span>
+                <span>QRX</span>
+            </a>
+
+            <span class="tagline">QR Code Generator</span>
+        </div>
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main class="main">
+
+        <div class="container">
+
+            <!-- Hero -->
+            <section class="hero">
+
+                <span class="badge">⚡ Fast & Lightweight</span>
+
+                <h1>
+                    Generate QR Codes
+                    <span>Instantly.</span>
+                </h1>
+
+                <p>
+                    Enter a URL, text, or any information and
+                    generate a clean QR code in seconds.
+                </p>
+
+            </section>
+
+
+            <!-- QR Generator -->
+            <section class="generator">
+
+                <!-- Input Card -->
+                <div class="card input-card">
+
+                    <div class="card-header">
+                        <div>
+                            <h2>QR Code Generator</h2>
+                            <p>Enter your content below.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="qrInput">
+                            Text or URL
+                        </label>
+
+                        <textarea
+                            id="qrInput"
+                            rows="5"
+                            maxlength="2000"
+                            placeholder="https://example.com"
+                            autocomplete="off"
+                        ></textarea>
+
+                        <div class="input-footer">
+                            <span id="characterCount">
+                                0 / 2000
+                            </span>
+
+                            <button
+                                type="button"
+                                id="clearButton"
+                                class="clear-button"
+                            >
+                                Clear
+                            </button>
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        id="generateButton"
+                        class="generate-button"
+                    >
+                        <span>Generate QR Code</span>
+                        <span class="button-icon">→</span>
+                    </button>
+
+                    <p
+                        id="errorMessage"
+                        class="error-message"
+                        aria-live="polite"
+                    ></p>
+
+                </div>
+
+
+                <!-- Preview Card -->
+                <div class="card preview-card">
+
+                    <div class="card-header">
+                        <div>
+                            <h2>Preview</h2>
+                            <p>Your QR code will appear here.</p>
+                        </div>
+                    </div>
+
+
+                    <div
+                        id="qrContainer"
+                        class="qr-container"
+                    >
+
+                        <div
+                            id="qrPlaceholder"
+                            class="qr-placeholder"
+                        >
+                            <div class="placeholder-icon">
+                                ▦
+                            </div>
+
+                            <h3>No QR Code Yet</h3>
+
+                            <p>
+                                Enter some content and click
+                                <strong>Generate QR Code</strong>.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        id="downloadButton"
+                        class="download-button"
+                        disabled
+                    >
+                        <span>↓</span>
+                        Download PNG
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- Features -->
+            <section class="features">
+
+                <div class="feature">
+                    <span class="feature-icon">⚡</span>
+
+                    <div>
+                        <h3>Instant</h3>
+                        <p>Generate QR codes in real time.</p>
+                    </div>
+                </div>
+
+
+                <div class="feature">
+                    <span class="feature-icon">🔒</span>
+
+                    <div>
+                        <h3>Private</h3>
+                        <p>Your data stays in your browser.</p>
+                    </div>
+                </div>
+
+
+                <div class="feature">
+                    <span class="feature-icon">📱</span>
+
+                    <div>
+                        <h3>Responsive</h3>
+                        <p>Works across desktop and mobile.</p>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 QRX. Built with HTML, CSS & JavaScript.
+            </p>
+
+            <p>
+                Simple. Fast. Private.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         SCRIPTS
+    ====================================================== -->
+
+    <script src="js/qrcode.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
