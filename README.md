@@ -54,6 +54,7 @@ Try the fully deployed QRX application:
 <a href="https://pokhrelsamir.github.io/QRX/">
   <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Open%20QRX-Live%20Demo-6366f1?style=for-the-badge" alt="Open QRX Live Demo">
 </a>
+</div>
 
 ---
 
